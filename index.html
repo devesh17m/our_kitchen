@@ -1,103 +1,351 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="new_kitchen.css">
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
-    <title>Document</title>
-</head>
-<body>
-    <div class="our_kitchen">
-        <h1 class="kitchen_heading">Our Kitchen’s Categories</h1>
-    </div>
-    <div class="card1">
-        <div class="card_left">
-            <img class="kitchen_img"src="https://cdn.discordapp.com/attachments/891025496601661504/969107424025931817/unknown.png"/>
-            <h3 class="kitchen_name">Budget Special</h3>
-            <button class="menu">Menu</button>
-        </div>
-        <div class="card_right">
-            <ul class="card_desc">
-                <li class="card_description">Cloud Kitchens Type: <span class="item">Veg</span></li>
-                <li class="card_description">Cloud Kitchens Availability:<span class="item"> 01</span></li>
-                <li class="card_description">Cloud Kitchen Meals:<span class="item"> Lunch + Dinner</span> </li>
-                <li class="card_description">Available Subscription Plans: <span class="item"> Weekly / Monthly</span></li>
-                <li class="card_description">Suitable for Customers:  <span class="item">Budget Focused, Less Exotic Meals Lover</span></li>
+*{
+    margin: 0;
+    padding: 0;
+}
+.kitchen_heading{
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+    margin-left: 32%;
+    font-size: 3rem;
+    color: #78A92D;
+    font-family: 'Pacifico';
+}
+.card1{
+    display: flex;
+    background-color: #D3EDAB;
+    /* height: 30rem; */
+    height: 50vh;
+    width: 80vw;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top: 4%;
 
-            </ul>
-            <button class="rate"><span class="rates_disc">Rs 810Rs 3200</span>
-            Rs780/3000</button>
-            <button class="subscribe">Subscribe Now</button>
-        </div>
-        
-    </div>
-    <div class="card2">
-        <div class="card_left">
-            <img class="kitchen_img"src="https://cdn.discordapp.com/attachments/891025496601661504/969107424025931817/unknown.png"/>
-            <h3 class="kitchen_name">Taste Special</h3>
-            <button class="menu2">Menu</button>
-        </div>
-        <div class="card_right">
-            <ul class="card_desc">
-                <li class="card_description">Cloud Kitchens Type:<span class="item">Veg</span></li>
-                <li class="card_description">Cloud Kitchens Availability:<span class="item">01</span> </li>
-                <li class="card_description">Cloud Kitchen Meals:<span class="item"> Lunch + Dinner</span></li>
-                <li class="card_description">Available Subscription Plans:<span class="item">Weekly / Monthly</span></li>
-                <li class="card_description">Suitable for Customers:<span class="item">Taste Focused, Exotic Meals Lover</span> </li>
+}
+.card_left{
+background-color: #ffff;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 4vw;
+border-radius: 15px;
+}
+.kitchen_img{
+    height: 30vh;
+}
+.card_right{
+    background-color: #ffff;
+    margin-left: 4%;
+    height: 40vh;
+    border-radius: 15px;
+    margin-top: 5vh;
+    width: 50vw;
+}
+.card_description{
+    list-style: none;
+    margin-left: 5%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 5vh;
+}
+.card_desc{
+    margin-top: 7vh;
+}
+.kitchen_name{
+    margin-left: 17%;
+    margin-top: -7%;
+}
+.menu{
+    margin-left: 28%;
+    height: 5vh;
+    margin-top: 2px;
+    width: 7vw;
+    background-color: #F8AE3B
+    ;
+    color: white;
+    border: 0px;
+    border-radius: 17px;
+}
+.card2{
+    display: flex;
+    background-color: #D3EDAB;
+    /* height: 30rem; */
+    height: 50vh;
+    width: 80vw;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top: 4%;
 
-            </ul>
-            <button class="rate2"><span class="rates_disc">Rs 850 Rs3350</span>
-               Rs830/ Rs3150</button>
-                <button class="subscribe">Subscribe Now</button>
-        </div>
-        
-    </div>
-    <div class="card4">
-        <div class="card_left">
-            <img class="kitchen_img"src="https://cdn.discordapp.com/attachments/891025496601661504/969107424025931817/unknown.png"/>
-            <h3 class="kitchen_name">Health Special</h3>
-            <button class="menu4">Menu</button>
-        </div>
-        <div class="card_right">
-            <ul class="card_desc">
-                <li class="card_description">Cloud Kitchens Type:<span class="item">Veg</span></li>
-                <li class="card_description">Cloud Kitchens Availability:<span class="item">01</span> </li>
-                <li class="card_description">Cloud Kitchen Meals:<span class="item"> Lunch + Dinner</span></li>
-                <li class="card_description">Available Subscription Plans:<span class="item">Weekly / Monthly</span></li>
-                <li class="card_description">Suitable for Customers:<span class="item">Health Focused, Vegetables Focused, Balanced Diet Lover</span> </li>
+}
+.card3{
+    display: flex;
+    background-color: #D3EDAB;
+    /* height: 30rem; */
+    height: 50vh;
+    width: 80vw;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top: 4%;
 
-            </ul>
-            <button class="rate_new"><span class="rates_disc">Rs900 Rs3500</span>
-               Rs870/ Rs3300</button>
-                <button class="subscribe">Subscribe Now</button>
-        </div>
-        
-    </div>
-    <div class="card3">
-        <div class="card_left">
-            <img class="kitchen_img"src="https://cdn.discordapp.com/attachments/891025496601661504/969107424025931817/unknown.png"/>
-            <h3 class="kitchen_name">Iskcon Special</h3>
-            <button class="menu3">Menu</button>
-        </div>
-        <div class="card_right">
-            <ul class="card_desc">
-                <li class="card_description">Cloud Kitchens Type:<span class="item">Veg</span></li>
-                <li class="card_description">Cloud Kitchens Availability:<span class="item">01</span> </li>
-                <li class="card_description">Cloud Kitchen Meals:<span class="item"> Lunch + Dinner</span></li>
-                <li class="card_description">Available Subscription Plans:<span class="item">Weekly / Monthly</span></li>
-                <li class="card_description">Suitable for Customers:<span class="item">ISKCON Focused</span> </li>
-           
+}
+.card4{
+    display: flex;
+    background-color: #D3EDAB;
+    /* height: 30rem; */
+    height: 50vh;
+    width: 80vw;
+    margin-left: 10%;
+    border-radius: 10px;
+    margin-top: 4%;
 
-            </ul>
-            
-                <button class="subscribe2">Comming Soon</button>
-        </div>
-        
-    </div>
-    
-    
+}
+.rate{
+    width: 10vw;
+    height: 7vh;
+    margin-top: 4%;
+    margin-left: 15%;
+    border-radius: 17px;
+    border: 0px;
+    background-color:#F8AE3B;
+    color: white;
 
-</body>
-</html>
+}
+.rate2{
+    width: 10vw;
+    height: 7vh;
+    margin-top: 4%;
+    margin-left: 15%;
+    border-radius: 17px;
+    border: 0px;
+    background-color:#DC0F3D;
+    color: white;
+}
+.rate4{
+    width: 10vw;
+    height: 7vh;
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 5%;
+    border-radius: 17px;
+    border: 0px;
+    background-color:#78A92D;
+    color: white;
+}
+.rate_new{
+    width: 10vw;
+    height: 7vh;
+
+    margin-top: 0%;
+    margin-left: 15%;
+    border-radius: 17px;
+    border: 0px;
+    background-color:#78A92D;
+    color: white;
+}
+.subscribe4{
+    width: 10vw;
+    height: 7vh;
+    position: absolute;
+   background-color:#DC0F3D ;
+    margin-left: 30%;
+    color: white;
+    border-radius: 17px;
+    border: 0px;
+}
+.item{
+    font-weight: 400;
+}
+.rates_disc{
+    text-decoration: line-through;
+}
+.subscribe{
+    width: 10vw;
+    height: 7vh;
+   background-color:#DC0F3D ;
+    margin-left: 4%;
+    color: white;
+    border-radius: 17px;
+    border: 0px;
+}
+.subscribe2{
+    width: 10vw;
+    height: 7vh;
+    margin-top: 3%;
+   background-color:#DC0F3D ;
+    margin-left: 25%;
+    color: white;
+    border-radius: 17px;
+    border: 0px;
+}
+.menu2{
+    margin-left: 28%;
+    height: 5vh;
+    margin-top: 2px;
+    width: 7vw;
+    background-color: #DC0F3D
+    ;
+    color: white;
+    border: 0px;
+    border-radius: 17px;
+}
+.menu4{
+    margin-left: 28%;
+    height: 5vh;
+    margin-top: 2px;
+    width: 7vw;
+    background-color: #78A92D
+    ;
+    color: white;
+    border: 0px;
+    border-radius: 17px;
+}
+.menu3{
+    margin-left: 28%;
+    height: 5vh;
+    margin-top: 2px;
+    width: 7vw;
+    background-color: #EB601A
+    ;
+    color: white;
+    border: 0px;
+    border-radius: 17px;
+}
+@media only screen and (max-width: 428px){
+    .card_left{
+        height: 30vh;
+    }
+   
+    .card_description{
+        font-size: 0.4rem;
+    }
+    .card_right{
+        width: 35vw;
+    }
+    .card_desc{
+        margin-top: 5%;
+        margin-left: 4%;
+    }
+    .menu{
+        width: 15vw;
+    }
+    .kitchen_heading{
+        font-size: 1rem;
+    }
+    .rates_disc{
+        font-size: 0.4rem;
+    }
+    .rate{
+        font-size: 0.4rem;
+        width: 13vw;
+    }
+    .subscribe{
+        font-size: 0.5rem;
+        width: 13vw;
+    }
+    .subscribe2{
+        font-size: 0.5rem;
+        width: 14vw;
+    }
+}
+@media only screen and (max-width: 415px){
+    .card_left{
+        height: 18vh;
+        width: 28vw;
+        margin-top: 1vh;
+    }
+    .kitchen_img{
+        height: 10vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .card1{
+        height: 20vh;
+    }
+    .menu{
+        height: 3vh;
+        margin-top: 1vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .card_right{
+        height: 18vh;
+        margin-top: 3%;
+    }
+    .card_description{
+        margin-top: 9%;
+        line-height: 1vh;
+    }
+    .subscribe{
+        height: 3vh;
+    }
+    .rate{
+        height: 3vh;
+    }
+    .rate2{
+        font-size: 0.4rem;
+        width: 13vw;
+        height: 3vh;
+    }
+    .rate_new{
+        font-size: 0.4rem;
+        width: 13vw;
+        height: 3vh;
+    }
+    .rate{
+        font-size: 0.4rem;
+        width: 13vw;
+        height: 3vh;
+        margin-top: 2%;
+    }
+    .kitchen_name{
+        font-size: 0.7rem;
+        text-align:center;
+        margin-left: 1%;
+        margin-top: 3%;
+    }
+    .card2{
+        height: 20vh;
+    }
+    .card3{
+        height: 20vh;
+    }
+    .subscribe2{
+        height: 3vh;
+        margin-top: 1vh;
+    }
+    .subscribe4{
+        height: 3vh;
+        margin-top: 1vh;
+        font-size: 0.5rem;
+        width: 14vw;
+        margin-left: 20%;
+    }
+    .card4{
+        height: 20vh;
+    }
+    .menu2{
+        height: 3vh;
+        margin-top: 1vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 15vw;
+    }
+    .menu3{
+        height: 3vh;
+        margin-top: 1vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 15vw;
+    }
+    .menu4{
+        height: 3vh;
+        margin-top: 1vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 15vw;
+    }
+}
