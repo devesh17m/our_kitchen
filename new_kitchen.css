@@ -213,11 +213,7 @@ border-radius: 15px;
     .card_left{
         height: 30vh;
     }
-    .kitchen_name{
-        font-size: 0.8rem;
-        margin-top: -13%;
-        margin-left: 22%;
-    }
+   
     .card_description{
         font-size: 0.4rem;
     }
@@ -295,12 +291,18 @@ border-radius: 15px;
         font-size: 0.4rem;
         width: 13vw;
         height: 3vh;
+    }
+    .rate{
+        font-size: 0.4rem;
+        width: 13vw;
+        height: 3vh;
         margin-top: 2%;
     }
     .kitchen_name{
         font-size: 0.7rem;
-        text-align: center;
-        margin-top: 5%;
+        text-align:center;
+        margin-left: 1%;
+        margin-top: 3%;
     }
     .card2{
         height: 20vh;
